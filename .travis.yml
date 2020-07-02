@@ -12,4 +12,4 @@ deploy:
   provider: script
   skip_cleanup: true
   script:
-  - curl -T testCmake-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb -artidy:$BINTRAY_API_KEY "https://travis-ci.org/github/artidy/testCmake/$TRAVIS_BUILD_NUMBER/testCmake-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb;deb_distribution=trusty;deb_component=main;deb_architecture=amd64;publish=1"
+  - curl -T testCmake-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb -artidy:$BINTRAY_API_KEY "https://devandy.bintray.com/otus/testCmake/$TRAVIS_BUILD_NUMBER/testCmake-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb;deb_distribution=trusty;deb_component=main;deb_architecture=amd64;publish=1"
