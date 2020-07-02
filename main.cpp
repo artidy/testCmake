@@ -2,6 +2,6 @@
 
 int main() {
 	cout<<"Hello World!"<<"\n";
-	cout<<productVersion<<"\n";
+	cout<<"Project version: "<<version()<<"\n";
 	return 0;
 }
